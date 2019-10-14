@@ -11,6 +11,43 @@
         .clasecolor{
             color:blueviolet;
         }
+        p{ /*selector de elemento */
+            text-align: center;
+            color:crimson;
+        }
+        #particularcolorid{ /*selector de id(estilo particular) */
+            color:darkolivegreen;
+        }
+        .clasealineacion1{/*selector de clase */
+            text-align: right;
+        }
+        .variasclases1{/*clase para aplicar varias clases */
+            color:deeppink;
+        }
+        .variasclases2{
+            text-align: center;
+        }
+        h1,h2,p{/*agrupacion de selectores */
+            color:gold;
+        }
+        #colorfondo1{
+            background-color: rgba(24, 186, 226, 0.61);
+            color:white;
+        }
+        .imagenfondo1{
+            background-image: url("./img/descarga.jfif");
+        }
+        .capaimgfondo2{
+            background-image: url("./img/fcb.jfif");
+            width:80%;
+            height:600px;
+            margin:auto;
+            background-repeat: no-repeat;
+            /*background-repeat: repeat-x;*/
+            /*background-repeat: repeat;*/
+            /*background-position: right top;*/
+            background-position: center bottom;
+        }
         
     </style>
     
@@ -28,6 +65,24 @@
     <h2>vamos a probar las prioridades a la hora de aplicar estilos: de forma en linea,de forma interna o de forma externa</h2>
     <p style="color:chartreuse" class="clasecolor">este parrafo va a tener propiedades que se sobreescriben.aqui demostramos q el estilo en linea tiene prioridad sobre el de forma interna</p>         
     <p class="clasecolor colorhojaexterna">probamos la prioridad entre de forma interna y externa.si esta declarada despues sera la que aparezca</p>
-
+    <h2>selectores</h2>
+    <p>los elementos que tengan una clase especifica van a tener las propiedades de esa clase con prioridads de los selectores de elemento</p>
+    <p id="particularcolorid"> este va a cumplir un estilo particular.tiene prioridad sobre el selector de elemento si hay propiedades que se sobreescriban</p>
+    <p class="clasealineacion1">este parrafo cumple una clase "clasealineacion1". si cumpliera un selector de nombre, las prioridades comunes con la clasealineacion1 tendrian prioridad</p>
+    <h2>aplicar varias clases a un elemento</h2>
+    <div class="variasclases1 variasclases2">
+        capa que cumple varias clases
+    </div>
+    <h2>colores y color de fondo</h2>
+    <div id="colorfondo1">
+        esta capa tendra texto de color blanco y fondo azul
+    </div>
+    <h3 style="color:#6a5acd">con color establecido con codigo exadecimal</h3>
+    <h2>imagenes de fondo</h2>
+    <div class="imagenfondo1">
+        como la capa no tiene dimensiones solo se va a ver una porcion de la imagen adaptada a la cantidad del texto
+    </div>
+    <h2>el trabajo con img de fondo en capas con una dimension determinada</h2>
+    <div class="capaimgfondo2"></div>
 </body>
 </html>
