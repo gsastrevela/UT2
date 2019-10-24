@@ -1,0 +1,120 @@
+.dimensionescapa{
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    border: solid 1px black;
+    margin-top: 60px;
+
+}
+
+
+.padding{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+}
+.paddinggeneral{
+    padding: 50px;
+}
+.capaalturamin{
+    width: 60%;
+    min-height: 500px; /*altura minima. si el contenedor necesita crecer porque se desborda lo hara hasta que lo necesite */
+    border: solid 1px black;
+    margin: auto;
+    margin-top: 50px;
+}
+.capamax{
+    width: 60%;
+    max-height: 1000px;
+    border: solid 1px black;
+    margin: auto;
+    margin-top: 50px;
+    overflow: auto;
+}
+.capamargin{
+    width: 90%;
+    margin-left: 15%;
+    min-height: 400px;
+    border: solid 1px black;
+}
+.capaizqoutline{
+    float: left;
+    outline: solid 4px black;
+    min-height: 400px;
+    width: 50%;
+    margin-bottom: 60px;
+}
+.capaderoutline{
+    float: left;
+    outline: solid 4px blue;
+    min-height: 400px;
+    width: 50%;
+
+}
+.outlineoffset{
+    width: 50%;
+    margin: auto;
+    min-height: 300px;
+    outline: dashed 2px aquamarine;
+    border: solid 2px violet;
+    outline-offset: 10px;
+}
+.clearfix{
+    display: flow-root;
+}
+.alineacionesder{
+text-align: right;
+}
+.alineacionesizq{
+text-align: left;
+}
+.alineacionescen{
+text-align: center;
+}
+.alineacionesjust{
+text-align: justify;
+}
+.tachado{
+text-decoration: line-through;
+}
+.subrayado{
+text-decoration: underline;
+}
+.sobrerayado{
+text-decoration: overline;
+}
+.transmin{
+text-transform: lowercase;
+}
+.transmay{
+text-transform: uppercase;
+}
+.transcap{
+text-transform: capitalize;
+}
+.identacion{
+    text-indent: 40px;
+}
+.espaciado{
+    letter-spacing: 4px;
+}
+.alturalinea{
+    line-height: 1.6;
+}
+.direcciontexto{
+    direction: rtl;
+}
+.espaciado{
+    word-spacing: 4px;
+}
+h4{
+    text-shadow: 4px 6px blue; /*primera cifra a nivel horizontal y la segunda cifra a nivel vertical */
+}
+@font-face{
+    font-family: familiafuente1;
+    src:url(../fonts/Modak-Regular.ttf)
+}
+.pruebafuente{
+    font-family: familiafuente1;
+}
