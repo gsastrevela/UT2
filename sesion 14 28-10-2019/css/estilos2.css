@@ -1,0 +1,28 @@
+/*seudoclases para controlar el estado de los enlaces */
+a:link{
+    color:green;
+    text-decoration: none; /*para que no aparezca subrayado */
+}
+a:visited{
+    color: red;
+}
+a:active{
+    color: aquamarine;
+    background-color: palegoldenrod; /*cuando haga click tenga color de fondo */
+}
+a:hover{
+    color: violet;
+    text-decoration: underline; /*si quiero q este subrayado cuando situo el ratobn encima */
+}
+ol{
+    background-color: #ff9999;
+    padding: 20px;
+}
+ol li{/*selector descendente*/
+background-color: #ffe5e5;
+padding: 5px;
+margin-left: 35px;
+}
+ul{
+    list-style-image: url("../recursos/favicon.jfif");
+}
