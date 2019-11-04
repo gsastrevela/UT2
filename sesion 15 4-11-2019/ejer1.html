@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 1-sesion 15</title>
+    <link rel="stylesheet" href="css/hojaestilos1.css">
+    
+</head>
+<body>
+    <h2>list style position</h2>
+    <ol class="a">
+        <li>elemento 1</li>
+        <li>elemento 2</li>
+        <li>elemento 3</li>
+        <li>elemento 4</li>
+    </ol>
+    <ol>
+            <li>elemento 1</li>
+            <li>elemento 2</li>
+            <li>elemento 3</li>
+            <li>elemento 4</li>
+        </ol>
+
+    <ul class="b">
+            <li>elemento 1</li>
+            <li>elemento 2</li>
+            <li>elemento 3</li>
+            <li>elemento 4</li>
+    </ul>
+    <ul>
+            <li>elemento 1</li>
+            <li>elemento 2</li>
+            <li>elemento 3</li>
+            <li>elemento 4</li>
+    </ul>
+    <h2>conbinadores</h2>
+    <h3>selector descendente</h3>
+    <div>
+        <p>este parrafo es descendiente del div.deberia aparecer en verde.</p>
+        <span>
+            <p>este parrafo es descendiente del div?</p>
+        </span>
+        <p>este parrafo tambn deberia ser descendiente del div.</p>
+    </div>
+    <h3>selector hijo</h3>
+    <span>
+        <a href="https://www.google.es" target="_blank">enlace hijo de span</a>
+        <a href="https://www.bing.com" target="_blank">enlace hijo de span</a>
+        <div>
+            <a href="https://www.futbolfantasy.com">enlace descendiente de span,pero no hijo</a>
+        </div>
+        <a href="https://www.resetera.com" target="_blank">enlace hijo de span</a>
+    </span>
+    <h3>selector adyacente hermano</h3>
+    <div>
+            <h4>esto es un h4</h4>
+            <h5>esto es un h5 hermano adyacente de un elemento h4 deberia aparecer con color</h5>
+            <h5>esto es un h5 hermano de un elemento h4 pero no es un hermano adyacente, por lo que no deberia aparecer con color</h5>
+    </div>
+    <h3>selector hermano general</h3>
+    <div>
+        <h5>esto es un h5</h5>
+        <h6>esto es un h6 que es hermano adyacente de un elemento h5</h6>
+        <h6>esto es un h6 hermano general de un elemento h5</h6>
+        <h6>esto es un h6 hermano general de un elemento h5</h6>
+    </div>
+    <h3>pseudoclases</h3>
+    <div>
+        <a href="https://www.google.es" class="resaltado">enlace a google.elemento que cumple una clase resaltado y que activa su estilo al po0ner el raton ewncima</a>
+        <p class="resaltado">elemento p que cumple la clase resaltado</p>
+    </div>
+
+</body>
+</html>
