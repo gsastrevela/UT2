@@ -1,0 +1,30 @@
+.capaestandar{
+    width: 40%;
+    min-height: 200px;
+    border: 1px solid black;
+}
+
+.positionfixed{
+    position: fixed;
+    left: 30%;
+    top: 50px;
+}
+
+.positionsticky{
+    position: sticky;
+    left: 5%;
+    top: 0px;
+    border: 1px solid red;
+}
+.capaestandar2{
+    width: 200%;
+    min-height: 200px;
+    border:solid 1px black;
+}
+.positionabsoluta{
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    border:1px solid blue;
+    font-weight: bolder;
+}

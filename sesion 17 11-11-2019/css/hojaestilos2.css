@@ -1,0 +1,43 @@
+.capaestandarp{
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid black;
+}
+.contenedor{
+    position: relative;
+    width: 90%;
+    min-height: 600px;
+    margin: auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.positionabsolute{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+.capa1{
+    background-color: red;
+    position: absolute;
+    top: 40px;
+    z-index:200 ;/*lo hacemos de 100 en 100 para facilitar la correccion */
+}
+.capa2{
+    background-color: greenyellow;
+    position: absolute;
+    top: 80px;
+    left: 5%;
+    z-index: 100;/* cuanto mayor sea el z-index mas arriba aparecera la capa */
+}
+.prooverhidden{
+    overflow: hidden;
+    height: 300px;/*tengo que cortar a una altura fija para demostrar la propiedad overflow*/
+}
+.prooverauto{
+    overflow: auto;
+    height: 300px;
+}
+.prooverscroll{
+    overflow: scroll;
+    height: 300px;
+}
