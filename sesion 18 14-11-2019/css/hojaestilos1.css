@@ -1,0 +1,83 @@
+.flotarder{
+    float: right;
+}
+.capacen{/*centrado de elementos de bloque */
+    width: 70%;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centradoeleminline{/*de forma cutre un text-align */
+    text-align: center;
+}
+.contenedor{
+    width: 80%;
+    min-height: 300px;
+    border: solid 1px black;
+    position: relative;
+}
+.alinearderposition{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.alinearderfloat{
+    float: right;
+    width: 400px;
+    height: 250px;
+}
+ol{
+    list-style-type: none;
+    margin-top: 50px;
+    
+}
+ol li{
+    padding: 30px 0;/*arriba y abajo 30px y 0px a la derecha e izq*/
+    border: 1px solid black;
+    display: inline;
+}
+.cenverticalhor{
+    height: 300px;
+    line-height: 200px;
+    border: solid 1px black;
+    text-align: center;
+    margin-top: 50px;
+}
+.cenverticalhor p{
+    /*line-height: 1.5; */
+    display: inline-block;
+    vertical-align: middle;
+}
+.contenedortransform{
+    height: 300px;
+    position: relative;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+.contenedortransform p{ /*incompatible con ie8 y anteriores */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   -ms-transform: translate(-50%,-50%);
+}
+.opacidad{
+    opacity: 0.5;
+    filter: alpha(opacity+50);
+}
+.contenedorimg{
+    position: relative;
+}
+.texto{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+.opacidadimagen{
+    opacity: 0.5;
+    filter: alpha(opacity+50);
+    width: 100%;
+}
